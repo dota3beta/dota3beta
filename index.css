@@ -11,14 +11,46 @@ body {
 	background-size: cover;
 	color: white;
 	font-size: 3vh;
-	font-family: "Trajan";
 }
 
-#bg {
+.bg {
 	position: absolute;
 	margin: 0;
 	padding: 0;
 	width: 100vw;
 	height: 100vh;
-	backdrop-filter: blur(10px);
+}
+
+.menu {
+	top: 1vh;
+	position: absolute;
+	font-size: 5vh;
+	padding: 1vh 0.5vw;
+	background: black;
+	width: 99%;
+	box-shadow: 0 0 1vw black;
+}
+
+.menu a {
+	position: relative;
+	bottom: 0.8vh;
+}
+
+#logo {
+	height: 5vh;
+}
+
+.play-button {
+	position: absolute;
+	bottom: 1vh;
+	right: 1vw;
+	padding: 1vh 5vw;
+	background: linear-gradient(to bottom, #4c8849, #395d4d);
+	outline: .2rem ridge rgba(255, 255, 255, 0.2);
+	box-shadow: 0 0 .2rem black;
+}
+
+.play-button a {
+	text-decoration: none;
+	color: white;
 }
