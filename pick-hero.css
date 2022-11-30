@@ -13,10 +13,17 @@ body {
 	font-size: 3vh;
 }
 
-.bg {
-	position: absolute;
-	margin: 0;
+button {
+	outline: none;
+}
+
+#hero {
+	background: rgba(0,0,0,0);
+	height: 10vh; 
+	width: 5vw;
 	padding: 0;
-	width: 100vw;
-	height: 100vh;
+}
+
+#hero img {
+	height: 10vh;
 }
