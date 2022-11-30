@@ -13,17 +13,15 @@ body {
 	font-size: 3vh;
 }
 
-button {
-	outline: none;
-}
-
 #hero {
-	background: rgba(0,0,0,0);
-	height: 10vh; 
-	width: 5vw;
+	background: url('portrait.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 10rem; 
+	width: 10rem;
 	padding: 0;
-}
-
-#hero img {
-	height: 10vh;
+	margin: 0.2rem;
+	outline: .1rem ridge rgba(255, 255, 255, 0.2);
 }
